@@ -18,7 +18,7 @@ const App = () => {
           setSec(0);
         }
       }
-    }, 1);
+    }, 10);
     return () => clearInterval(timer);
   }, [milSec]);
   return (
